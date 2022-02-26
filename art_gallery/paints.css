@@ -1,0 +1,84 @@
+nav{
+  font-weight:600;
+  font-family:serif;
+  float:right;
+  text-align:right;
+  padding-top: 15px;
+  }
+header{padding-left:3%;}
+
+
+a{text-decoration: none;
+  padding-left: 25px;
+  }
+
+h1{font-weight:lighter;
+  margin-top:0;
+  margin-bottom:unset;
+  }
+
+h2{font-weight:50;
+  margin:auto;
+  font-size:15px;
+  }
+
+body{margin:25%;
+margin-top:3%;
+font-size: 11pt;}
+
+
+.child2{display: flex;
+width:100%;}
+
+.im{display:inline-block;
+  }
+
+img{width:100%;
+}
+
+
+.Buy{margin-left:8%; width:80%;
+
+}
+
+
+.son{
+  display:inline-block;
+
+}
+
+
+.daughter{display:inline-block;
+}
+
+h3{font-weight: 100;
+
+}
+button{
+  font-size:11pt;
+      background-color:#242625;
+      border: none;
+      box-shadow: 0 0 20px;
+      color: white;
+      padding: 15px 32px;
+      border-radius:20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+
+
+.man{display:flex;}
+
+
+h4{float:right;padding-right:25%;
+  font-size:x-large;font-weight:lighter;
+  margin:0%;
+}
+.social{width:30%;
+  height:21%;float:right;
+  padding-right:15%;
+
+}
