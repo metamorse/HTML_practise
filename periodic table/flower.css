@@ -1,0 +1,35 @@
+.s-block{color:black;
+background-color:#EE9A4D; }
+
+.p-block{color:black;
+  background-color:#6daae8; }
+
+.d-block{color:black;
+  background-color:#b55543;}
+
+.f-block{color:black;
+  background-color:#6daa4f; }
+
+.empty{border-color:#bebebe;}
+ td{text-align: center;
+   
+   font-size:10pt;
+   padding:5px;
+   height: 30px;
+   width: 30px;
+   font-weight: bold;
+
+ }
+table{margin-left: auto;
+    margin-right: auto;
+  width:800px;
+  height:400px;
+
+}
+header{text-align:center;
+
+}
+sup{
+    vertical-align:top;
+
+    }

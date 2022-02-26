@@ -1,0 +1,15 @@
+{"name":mahesh,
+  "description": A theme for navcasacade.io,
+  "version":0.0.1,
+  "engines":{
+  "ghost":>=1.0.0,
+  },
+  "author":{
+    "name":mahesh,
+    "email":maheshpunnapu@gmail.com,
+
+  },
+  "config":{
+    "posts_per_page":3
+  }
+}
