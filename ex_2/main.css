@@ -1,0 +1,29 @@
+h1 {
+	font-size:5em;
+	text-align:center;
+	color:white;margin:0;
+   }
+hr {margin:0;}
+h2 {text-align:center;
+	color:white;
+   }
+
+#bulli{border-style: solid; width:100px; display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+p  {text-align:justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+    color:white;
+	}
+
+img { display: block;
+      margin-left: auto;
+      margin-right: auto;
+		}
+
+html{font-family: 'Roboto', sans-serif;}
