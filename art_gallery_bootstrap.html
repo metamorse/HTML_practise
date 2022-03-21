@@ -12,7 +12,7 @@
   <body>
     <div class="container">
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light text-white p-1"style="background-color:#464B62" >
           <div class="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,8 +33,8 @@
           </div>
         </nav>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-6">
+      <div class="row mt-2 mb-1 p-3" style="background-color:#BCAB7E">
+        <div class="col-12 col-lg-6 text-start">
           <h1>Jennifer Paints</h1>
         </div>
         <div class="col-12 col-lg-6 text-end">
@@ -42,31 +42,31 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <img class="img-fluid" src="images/paint.jpg" alt="sea">
+        <div class="col-12 col-sm-12 col-lg-12">
+          <img class="img-fluid" src="images/bridge.webp" alt="sea">
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col-12 col-lg-4">
-          <img class="img-fluid" src="images/left.jpg" alt="voyage">
+      <div class="row mt-3 ">
+        <div class="col-12 col-sm-12 col-lg-4 brush">
+          <img class="img-fluid"  src="images/left.jpg" alt="voyage">
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-sm-12 col-lg-4 brush">
           <img class="img-fluid" src="images/middle.jpg" alt="trip">
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-sm-12 col-lg-4 brush">
           <img class="img-fluid" src="images/right.jpg" alt="nature">
         </div>
       </div>
-      <div class="row text-center mt-3">
-        <div class="col-12">
+      <div class="row text-center mt-1">
+        <div class="col-12 text-center">
           <img src="images/buy.png" alt="Buy now">
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col-12 col-lg-6">
+      <div class="row">
+        <div class="col-12 col-lg-6 text-center">
           <img class="img-fluid" src="images/painting.jpg" alt="painting nature">
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 form text-center park rounded mt-1">
           <h3>Register for Gallery Viewing</h3>
           <form action="http://www.example.com/login.php">
             <p> Name:</p>
@@ -75,12 +75,13 @@
             <input type="text" name="Email Address"/>
             <p>Number of Tickets:</p>
             <input type="text" name="Number of Tickets"/><br>
-            <p><button>Submit Form</button></p>
+            <p class="px-2"><button>Submit Form</button></p>
           </form>
         </div>
       </div>
+      <hr class="col-lg-12">
       <div class="row mt-3">
-        <div class="col-12">
+        <div class="col-12 col-lg-12 text-center mt-2">
           <h4>Follow Jennifer</h4>
           <a href="https://www.facebook.com/">
           <img src="images/facebook.png" alt="facebook" width="30" height="30"</a>
@@ -94,8 +95,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <style>
-    img {
-      width: 100% !important;
-    }
+    .brush{font-size:0.9rem;padding:1.5rem;border: 2px solid white; text-align:center;
+    font-style:serif;}
+    input[type=text]:focus {
+      background-color: lightblue;}
+      .park{background-color: #3b636e;}
+
   </style>
   </body>
