@@ -66,16 +66,18 @@
         <div class="col-12 col-lg-6 text-center">
           <img class="img-fluid" src="images/painting.jpg" alt="painting nature">
         </div>
-        <div class="col-12 col-lg-6 form text-center park rounded mt-1">
+        <div class="col-12 col-lg-6 form text-center park rounded mt-1 pt-1">
           <h3>Register for Gallery Viewing</h3>
           <form action="http://www.example.com/login.php">
-            <p> Name:</p>
-            <input type="text" name="username"/>
-            <p>Email Address:</p>
-            <input type="text" name="Email Address"/>
-            <p>Number of Tickets:</p>
-            <input type="text" name="Number of Tickets"/><br>
-            <p class="px-2"><button>Submit Form</button></p>
+            <form class="" action="google.com"  method="post">
+              <label for="fname">Name*</label><br>
+                <input type="text" name="" value=""><br>
+              <label for="fname">Email Adress*</label><br>
+
+                <input type="text" name="adress" value=""><br>
+              <label for="fname">Date/Time Request</label><br>
+                <input type="text" name="" value=""><br>
+              <button>Send message</button>
           </form>
         </div>
       </div>
@@ -98,8 +100,14 @@
     .brush{font-size:0.9rem;padding:1.5rem;border: 2px solid white; text-align:center;
     font-style:serif;}
     input[type=text]:focus {
-      background-color: lightblue;}
-      .park{background-color: #3b636e;}
+      background-color: lightblue;
+      padding:12px;
+      border-color:white;
+      width:15rem;}
+      .park{background-color: #3b636e;
+          font-size:0.9rem;padding:1.5rem;border: 2px solid white;}
+      h3{font-style: italic;}
+      #form_description{font-size:0.9em; }
 
   </style>
   </body>
